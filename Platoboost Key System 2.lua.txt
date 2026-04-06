@@ -7,11 +7,11 @@
 -------------------------------------------------------------------------------
 local Config = {
     -- [1] PlatoBoost Settings
-    ServiceId       = 21850, -- Your PlatoBoost Service ID
-    PlatoSecret     = "b82c839f-cd39-4b49-a3d0-fbbfbbfb66cb", -- Your PlatoBoost Secret Key
+    ServiceId       = 0, -- Your PlatoBoost Service ID
+    PlatoSecret     = "Secret", -- Your PlatoBoost Secret Key
 
     -- [2] Anti-Bypass / Global Secret Variable
-    Secret          = "NulteezHub1002", -- This makes the script ONLY run from the key script. Even if they copy the original obfuscated script to bypass the key, they won't be able to!
+    Secret          = "Code", -- This makes the script ONLY run from the key script. Even if they copy the original obfuscated script to bypass the key, they won't be able to!
     
     -- [3] Scripts & Links
     MainScriptURL   = "", -- The raw URL of your main script
@@ -21,17 +21,17 @@ local Config = {
     DiscordURL      = "https://discord.gg/v4ku368Hma",
     
     ShowInstagram   = true,
-    InstagramURL    = "https://www.instagram.com/oyb0i/",
+    InstagramURL    = "https://www.instagram.com/YourName/",
     
     ShowYoutube     = true,
-    YoutubeURL      = "https://www.youtube.com/@ProdbyNulteez",
+    YoutubeURL      = "https://www.youtube.com/@ProdByNulteez",
 
     -- [5] File System
-    KeyFileName     = "NulteezKey.txt", -- The name of the file where the valid key will be saved for auto-login
+    KeyFileName     = "YourSaveKeyName.txt", -- The name of the file where the valid key will be saved for auto-login
 
     -- [6] GUI Management
-    OldGuiName      = "Nulteez Hub", -- Name of the old GUI to destroy if it's already open
-    MainGuiName     = "Nulteez Hub", -- Name of the main script's GUI to check if it's already executing
+    OldGuiName      = "Anything", -- Name of the old GUI to destroy if it's already open
+    MainGuiName     = "Anything", -- Name of the main script's GUI to check if it's already executing
 
     -- [7] Hub Information & UI Text
     HubName         = "Nulteez Hub Key", -- The main title shown at the top of the GUI
